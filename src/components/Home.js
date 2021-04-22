@@ -3,7 +3,7 @@ import { makeStyles, Typography } from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 import ReactTypingEffect from "react-typing-effect";
-import "../styles/App.css";
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -20,7 +20,7 @@ function Home() {
         {/* Content */}
         <Grid container spacing={3}>
           <Grid
-            className="homeContent"
+            
             item
             xs={12}
             sm={6}
@@ -28,6 +28,7 @@ function Home() {
             md={6}
             align="left"
           >
+            <div className="homeContent">
             <h1>Google Developer Student Club BKBIET</h1>
             <Typography variant="h5">Powered By Google Developers</Typography>
             <h3>
@@ -39,15 +40,15 @@ function Home() {
               />
             </h3>
             <Grid container spacing={0}>
-              <Grid item xs={12} sm={6} lg={3} md={3}>
+              <Grid item xs={12} sm={6} lg={4} md={4}>
                 <a
                   href="https://discord.gg/7cAesm9H"
                   className="homeButtonDiscord"
                 >
-                  Join us on Discord
+                  Join on Discord
                 </a>
               </Grid>
-              <Grid item xs={12} sm={6} lg={3} md={3}>
+              <Grid item xs={12} sm={6} lg={4} md={4}>
                 <a
                   href="https://dsc.community.dev/accounts/login/?next=/bk-birla-institute-of-engineering-and-technology-pilani/"
                   className="homeButtonPortal"
@@ -56,11 +57,9 @@ function Home() {
                 </a>
               </Grid>
             </Grid>
+            </div>
           </Grid>
-        </Grid>
-
-        {/* Animation */}
-        <Grid item xs={12} sm={6} lg={6} md={6}>
+          <Grid item xs={12} sm={6} lg={6} md={6}>
           <Player
             autoplay
             loop
@@ -70,6 +69,10 @@ function Home() {
             <Controls visible={false} />
           </Player>
         </Grid>
+        </Grid>
+
+        {/* Animation */}
+        
       </div>
     </div>
   );
