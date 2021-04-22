@@ -17,10 +17,9 @@ function Home() {
   return (
     <div>
       <div className={classes.root}>
-        {/* Content */}
         <Grid container spacing={3}>
+          {/* Content */}
           <Grid
-            
             item
             xs={12}
             sm={6}
@@ -59,20 +58,18 @@ function Home() {
             </Grid>
             </div>
           </Grid>
+          {/* Animation */}
           <Grid item xs={12} sm={6} lg={6} md={6}>
-          <Player
+            <Player
             autoplay
             loop
             src="https://assets3.lottiefiles.com/packages/lf20_myykup2f.json"
             style={{ height: "500px", width: "400px" }}
-          >
-            <Controls visible={false} />
-          </Player>
-        </Grid>
-        </Grid>
-
-        {/* Animation */}
-        
+            >
+                <Controls visible={false} />
+            </Player>
+          </Grid>
+        </Grid>       
       </div>
     </div>
   );
