@@ -1,0 +1,31 @@
+.homeContent {
+  margin-top: 10%;
+}
+
+.homeButtonDiscord {
+  background-color: #7289d9;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.homeButtonPortal {
+  background-color: #1a73e8;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
