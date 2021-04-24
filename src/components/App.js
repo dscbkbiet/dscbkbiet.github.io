@@ -1,6 +1,7 @@
 import "../styles/App.css";
 import Home from "./Home";
 import Events from "./Events";
+import Podcasts from './Podcasts'
 
 
 
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Home />
       <Events />
+      <Podcasts />
     </div>
   );
 }
