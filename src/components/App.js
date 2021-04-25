@@ -22,19 +22,26 @@ function App() {
           <Route exact path="/dsc-bkbiet-events">
              <EventsPage />
           </Route>
-        
           <Route path="/">
-            <Home />
-            <Events />
-            <ContactUs />
-            <Podcasts />
-            <Blog />
+            <div className="App">
+              <Home />
+              <Events />
+              <br/>
+              <br/>
+              <ContactUs />
+              <br/>
+              <br/>
+              <Podcasts />
+              <br/>
+              <br/>
+              <Blog />
+            </div>
           </Route>
         </Switch>
       </div>
        
     </BrowserRouter>
-    
+
   );
 }
 
