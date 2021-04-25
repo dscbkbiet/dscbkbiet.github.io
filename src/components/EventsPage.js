@@ -75,7 +75,7 @@ function EventsPage() {
             />
             <CardContent>
               <Typography variant="h5" component="h2">
-                Android Study Jams | Info Session
+                Android Jams | Info Session
               </Typography>
             </CardContent>
           </Card>
