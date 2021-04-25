@@ -78,7 +78,7 @@ function Events() {
             />
             <CardContent>
               <Typography variant="h5" component="h2">
-                Android Study Jams | Info Session
+                Android Jams | Info Session
               </Typography>
             </CardContent>
           </Card>
@@ -116,17 +116,18 @@ function Events() {
       </Grid>
 
       <Router>
-        <div>
+        <div align="center">
           <Link to="/dsc-bkbiet-events">
             <h3 className="eventsEventsPageButton">
               <b>See more</b>
             </h3>
           </Link>
-          <Switch>
+          {/* Add in App.js */}
+          {/* <Switch>
             <Route exact path="/dsc-bkbiet-events">
               <EventsPage />
             </Route>
-          </Switch>
+          </Switch> */}
         </div>
       </Router>
     </>

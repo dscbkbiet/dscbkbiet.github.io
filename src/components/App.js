@@ -2,6 +2,7 @@ import "../styles/App.css";
 import ContactUs from "./ContactUs";
 import Home from "./Home";
 import Events from "./Events";
+import Podcasts from './Podcasts';
 import React from "react";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Home />
       <Events />
       <ContactUs />
+      <Podcasts />
     </div>
   );
 }
