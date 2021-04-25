@@ -17,6 +17,9 @@ const useStyles = makeStyles({
     maxWidth: 400,
     flexGrow: 1,
   },
+  titleName: {
+    paddingTop: '30px'
+  }
 });
 
 function Events() {
@@ -33,7 +36,7 @@ function Events() {
               height="100%"
             />
             <CardContent>
-              <Typography variant="h5" component="h2">
+              <Typography variant="h5" component="h2" >
                 Solution Challenge Info Session
               </Typography>
             </CardContent>
@@ -78,7 +81,7 @@ function Events() {
               height="100%"
             />
             <CardContent>
-              <Typography variant="h5" component="h2">
+              <Typography variant="h6" component="h2">
                 Android Study Jams | Info Session
               </Typography>
             </CardContent>
@@ -116,11 +119,16 @@ function Events() {
         </Grid>
       </Grid>
 
-      <Link to="/dsc-bkbiet-events">
+      <Typography
+        align="center"
+        className={classes.titleName}
+      >
+        <Link to="/dsc-bkbiet-events">
             <h3 className="eventsEventsPageButton">
               <b>See more</b>
             </h3>
-      </Link>
+        </Link>
+      </Typography>
     
 
     </>

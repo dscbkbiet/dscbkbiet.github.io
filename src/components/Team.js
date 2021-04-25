@@ -10,6 +10,9 @@ const useStyles = makeStyles({
     paddingLeft: '40px',
     paddingRight: '30px',
     paddingTop: '20px'
+  },
+  titleName: {
+    paddingTop: '40px'
   }
 });
 
@@ -18,7 +21,14 @@ const Team = () => {
   
   return (
     <Fragment>
-      <Typography>The Team</Typography>
+      <Typography
+        className={classes.titleName}
+        variant="h3"
+        component="h2"
+        color="textSecondary"
+        align="center"
+        
+      >The Team</Typography>
       <Grid
         container
         spacing={4}
