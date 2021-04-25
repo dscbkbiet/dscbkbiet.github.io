@@ -9,6 +9,7 @@ import Typography from '@material-ui/core/Typography';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
+
 import { Link } from '@material-ui/core';
 
 const useStyles = makeStyles({
@@ -23,7 +24,10 @@ const useStyles = makeStyles({
 });
 
 
+
 const Cards = ({ name, position, image, iLink, tLink, lLink}) => {
+
+
   const classes = useStyles();
 
   return (
@@ -43,7 +47,6 @@ const Cards = ({ name, position, image, iLink, tLink, lLink}) => {
           </Typography>
         </CardContent>
       </CardActionArea>
-
       <CardActions>
         <Link href={iLink}>
           <InstagramIcon/>

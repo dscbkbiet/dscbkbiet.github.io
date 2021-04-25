@@ -1,6 +1,11 @@
+@font-face {
+  font-family: "google";
+  src: url(https://fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2);
+}
 .homeContent {
   padding-top: 15%;
   padding-left: 3%;
+  font-family: "google";
 }
 
 .homeButtonDiscord {
@@ -48,3 +53,7 @@
   margin: 4px 2px;
   cursor: pointer;
 }
+.podcast {
+  padding-bottom: 2%;
+}
+

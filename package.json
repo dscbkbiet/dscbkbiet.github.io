@@ -7,6 +7,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "dev": "parcel ./public/index.html",
     "eject": "react-scripts eject"
   },
   "keywords": [],
@@ -25,6 +26,7 @@
     "reactstrap": "^8.9.0"
   },
   "devDependencies": {
+    "parcel-bundler": "^1.12.5",
     "react-scripts": "^4.0.3"
   },
   "browserslist": {

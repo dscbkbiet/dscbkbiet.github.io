@@ -2,7 +2,11 @@ import "../styles/App.css";
 import Home from "./Home";
 import Events from "./Events";
 import Team from "./Team";
+import Blog from "./Blog";
 import EventsPage from "./EventsPage";
+import ContactUs from "./ContactUs";
+import Podcasts from "./Podcasts";
+
 import {
   BrowserRouter,
   Switch,
@@ -20,17 +24,27 @@ function App() {
           <Route exact path="/dsc-bkbiet-events">
              <EventsPage />
           </Route>
-        
           <Route path="/">
-            <Home />
-            <Events />
-            <Team />
+            <div className="App">
+              <Home />
+              <Events />
+              <Team />
+              <br/>
+              <br/>
+              <ContactUs />
+              <br/>
+              <br/>
+              <Podcasts />
+              <br/>
+              <br/>
+              <Blog />
+            </div>
           </Route>
         </Switch>
       </div>
        
     </BrowserRouter>
-    
+
   );
 }
 

@@ -1,0 +1,39 @@
+.Card {
+  flex-grow: 1;
+  max-width: 400;
+}
+
+.Card > h1 {
+  font-weight: 200;
+  font-family: "google";
+}
+
+.Card > p {
+  font-weight: 300;
+  font-size: x-large;
+  font-family: "google";
+}
+
+.Card > a > img {
+  width: 50px;
+}
+
+.Card > form > input {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 6px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.Card > form > button {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 6px;
+}

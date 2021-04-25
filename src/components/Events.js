@@ -36,6 +36,7 @@ function Events() {
             />
             <CardContent>
               <Typography variant="h5" component="h2" >
+
                 Solution Challenge Info Session
               </Typography>
             </CardContent>
