@@ -53,6 +53,12 @@
   margin: 4px 2px;
   cursor: pointer;
 }
+
+.eventsEventsPageButton:hover {
+  background-color: #fbb904;
+  transform: scale(0.9);
+  transition-duration: 0.5s;
+}
 .podcast {
   padding-bottom: 2%;
 }

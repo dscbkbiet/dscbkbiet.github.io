@@ -36,7 +36,7 @@ function ContactUs() {
                 placeholder="Enter your message"
                 style={{ height: '160px' }}
               ></input>
-              <button type="submit">Submit</button>
+              <button className="buttonClick" type="submit">Submit</button>
             </form>
           </Card>
         </Grid>

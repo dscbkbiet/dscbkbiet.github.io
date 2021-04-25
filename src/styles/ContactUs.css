@@ -28,7 +28,7 @@
   box-sizing: border-box;
 }
 
-.Card > form > button {
+.buttonClick {
   background-color: #4caf50;
   color: white;
   padding: 12px 20px;
@@ -36,4 +36,10 @@
   border-radius: 4px;
   cursor: pointer;
   margin: 6px;
+}
+
+.buttonClick:hover {
+  background-color: #57c92a;
+  transform: scale(1.2);
+  transition-duration: 0.5s;
 }
