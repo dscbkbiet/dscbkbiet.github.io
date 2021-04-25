@@ -10,7 +10,11 @@ function App() {
     <div className="App">
       <Home />
       <Events />
+      <br/>
+      <br/>
       <ContactUs />
+      <br/>
+      <br/>
       <Podcasts />
     </div>
   );

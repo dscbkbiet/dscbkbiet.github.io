@@ -34,6 +34,7 @@ function ContactUs() {
               <input
                 name="Your Message"
                 placeholder="Enter your message"
+                style={{ height: '160px' }}
               ></input>
               <button type="submit">Submit</button>
             </form>
