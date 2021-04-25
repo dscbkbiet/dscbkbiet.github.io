@@ -29,7 +29,6 @@ function Home() {
           >
             <div className="homeContent">
             <h1>Google Developer Student Club BKBIET</h1>
-            <Typography variant="h5">Powered By Google Developers</Typography>
             <h3>
               Together We{" "}
               <ReactTypingEffect

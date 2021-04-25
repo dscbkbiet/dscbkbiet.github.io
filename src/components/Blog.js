@@ -38,7 +38,7 @@ const Blog = () => {
       >
         
         <Grid item xs={12} sm={6} md={4}>
-          <Cards
+        <Cards
             title={"A beginner’s tour to What/Why/How of WSL!!"}
             content={"All the best people in life seem to like LINUX"}
             image={"https://miro.medium.com/max/1000/0*w_BHVyYyisexdMbM"}
