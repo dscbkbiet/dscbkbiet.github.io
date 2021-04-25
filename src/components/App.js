@@ -5,13 +5,12 @@ import Events from "./Events";
 import Podcasts from './Podcasts';
 import React from "react";
 
-
 function App() {
   return (
     <div className="App">
-      <ContactUs />
       <Home />
       <Events />
+      <ContactUs />
       <Podcasts />
     </div>
   );
