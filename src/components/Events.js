@@ -8,14 +8,17 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 import ReactPlayer from "react-player/youtube";
 import Grid from "@material-ui/core/Grid";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import EventsPage from "./EventsPage";
+import { Switch, Route, Link } from "react-router-dom";
+
 
 const useStyles = makeStyles({
   root: {
     maxWidth: 400,
     flexGrow: 1,
   },
+  titleName: {
+    paddingTop: '30px'
+  }
 });
 
 function Events() {
@@ -32,7 +35,7 @@ function Events() {
               height="100%"
             />
             <CardContent>
-              <Typography variant="h5" component="h2">
+              <Typography variant="h6" component="h2" >
                 Solution Challenge Info Session
               </Typography>
             </CardContent>
@@ -77,8 +80,8 @@ function Events() {
               height="100%"
             />
             <CardContent>
-              <Typography variant="h5" component="h2">
-                Android Jams | Info Session
+              <Typography variant="h6" component="h2">
+                Android Study Jams | Info Session
               </Typography>
             </CardContent>
           </Card>
@@ -115,21 +118,18 @@ function Events() {
         </Grid>
       </Grid>
 
-      <Router>
-        <div align="center">
-          <Link to="/dsc-bkbiet-events">
+      <Typography
+        align="center"
+        className={classes.titleName}
+      >
+        <Link to="/dsc-bkbiet-events">
             <h3 className="eventsEventsPageButton">
               <b>See more</b>
             </h3>
-          </Link>
-          {/* Add in App.js */}
-          {/* <Switch>
-            <Route exact path="/dsc-bkbiet-events">
-              <EventsPage />
-            </Route>
-          </Switch> */}
-        </div>
-      </Router>
+        </Link>
+      </Typography>
+    
+
     </>
   );
 }

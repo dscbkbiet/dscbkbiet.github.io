@@ -1,22 +1,47 @@
 import "../styles/App.css";
-import ContactUs from "./ContactUs";
 import Home from "./Home";
 import Events from "./Events";
-import Podcasts from './Podcasts';
-import React from "react";
+import Blog from "./Blog";
+import EventsPage from "./EventsPage";
+import ContactUs from "./ContactUs";
+import Podcasts from "./Podcasts";
+import {
+  BrowserRouter,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-      <Events />
-      <br/>
-      <br/>
-      <ContactUs />
-      <br/>
-      <br/>
-      <Podcasts />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Switch>
+          <Route exact path="/dsc-bkbiet-events">
+             <EventsPage />
+          </Route>
+          <Route path="/">
+            <div className="App">
+              <Home />
+              <Events />
+              <br/>
+              <br/>
+              <ContactUs />
+              <br/>
+              <br/>
+              <Podcasts />
+              <br/>
+              <br/>
+              <Blog />
+            </div>
+          </Route>
+        </Switch>
+      </div>
+       
+    </BrowserRouter>
+
   );
 }
 
