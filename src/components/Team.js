@@ -51,60 +51,9 @@ const Team = () => {
             </Grid>)
         })}
 
-        
-        {/* <Grid item xs={12} sm={6} md={4}>
-          <Cards
-            name={"Sameer Saini"}
-            position={"DSC Lead"}
-          />
-        </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-          <Cards
-            name={"Vaibhav Vyas"}
-            position={"Tech Lead"}
-          />
-        </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-          <Cards
-            name={"Mayank Gaur"}
-            position={"DevOps/Cloud Geek"}
-          />
-        </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-          <Cards
-            name={"Ramakrishna Chhipa"}
-            position={"Python/ML Lead"}
-          />
-        </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-          <Cards
-            name={"Anshika Gupta"}
-            position={"Web-Dev/ Social Media Handler"}
-          />
-        </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-          <Cards
-            name={"Aniket Kumar Sinha"}
-            position={"Web Dev / UI/UX Designer Lead"}
-          />
-        </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-          <Cards
-            name={"Khushi Tulsiyan"}
-            position={"Data Science / Chief Editor"}
-          />
-        </Grid>
-        <Grid item xs={12} sm={6} md={4}>
-          <Cards
-            name={"Shekar Aggarwal"}
-            position={"App Dev Lead"}
-          />
-        </Grid> */}
       </Grid>
       </Fragment>
   );
 };
 
 export default Team;
-
-

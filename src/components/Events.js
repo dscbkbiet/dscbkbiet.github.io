@@ -9,7 +9,6 @@ import Typography from "@material-ui/core/Typography";
 import ReactPlayer from "react-player/youtube";
 import Grid from "@material-ui/core/Grid";
 import { Switch, Route, Link } from "react-router-dom";
-import EventsPage from "./EventsPage";
 
 
 const useStyles = makeStyles({
