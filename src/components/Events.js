@@ -8,8 +8,9 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 import ReactPlayer from "react-player/youtube";
 import Grid from "@material-ui/core/Grid";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Switch, Route, Link } from "react-router-dom";
 import EventsPage from "./EventsPage";
+
 
 const useStyles = makeStyles({
   root: {
@@ -115,20 +116,13 @@ function Events() {
         </Grid>
       </Grid>
 
-      <Router>
-        <div>
-          <Link to="/dsc-bkbiet-events">
+      <Link to="/dsc-bkbiet-events">
             <h3 className="eventsEventsPageButton">
               <b>See more</b>
             </h3>
-          </Link>
-          <Switch>
-            <Route exact path="/dsc-bkbiet-events">
-              <EventsPage />
-            </Route>
-          </Switch>
-        </div>
-      </Router>
+      </Link>
+    
+
     </>
   );
 }
