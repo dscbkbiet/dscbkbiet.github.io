@@ -1,10 +1,12 @@
 import "../styles/App.css";
 import Home from "./Home";
 import Events from "./Events";
+import Team from "./Team";
 import Blog from "./Blog";
 import EventsPage from "./EventsPage";
 import ContactUs from "./ContactUs";
 import Podcasts from "./Podcasts";
+
 import {
   BrowserRouter,
   Switch,
@@ -26,6 +28,7 @@ function App() {
             <div className="App">
               <Home />
               <Events />
+              <Team />
               <br/>
               <br/>
               <ContactUs />
