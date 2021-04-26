@@ -1,20 +1,14 @@
 import "../styles/App.css";
-import Home from "./Home";
-import Events from "./Events";
-import Team from "./Team";
+
+import {BrowserRouter, Link, Route, Switch} from "react-router-dom";
+
 import Blog from "./Blog";
-import EventsPage from "./EventsPage";
 import ContactUs from "./ContactUs";
+import Events from "./Events";
+import EventsPage from "./EventsPage";
+import Home from "./Home";
 import Podcasts from "./Podcasts";
-
-import {
-  BrowserRouter,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-
-
+import Team from "./Team";
 
 function App() {
   return (

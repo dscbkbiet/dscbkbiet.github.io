@@ -1,19 +1,16 @@
-import React, { Fragment } from "react";
-import Cards from "./Card"
+import {Typography} from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";
-import { makeStyles } from '@material-ui/core/styles';
+import {makeStyles} from '@material-ui/core/styles';
+import React, {Fragment} from "react";
+
 import teamData from "../Assets/data/teamData";
-import { Typography } from "@material-ui/core";
+
+import Cards from "./Card"
 
 const useStyles = makeStyles({
-  gridContainer: {
-    paddingLeft: '40px',
-    paddingRight: '30px',
-    paddingTop: '20px'
-  },
-  titleName: {
-    paddingTop: '40px'
-  }
+  gridContainer :
+      {paddingLeft : '40px', paddingRight : '30px', paddingTop : '20px'},
+  titleName : {paddingTop : '40px'}
 });
 
 const Team = () => {
