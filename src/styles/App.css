@@ -6,6 +6,7 @@
   padding-top: 18%;
   padding-left: 3%;
   font-family: "google";
+  width: 100%;
 }
 
 .homeButtonDiscord {
@@ -62,4 +63,3 @@
 .podcast {
   padding-bottom: 2%;
 }
-
