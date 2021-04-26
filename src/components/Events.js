@@ -35,7 +35,8 @@ function Events() {
               height="100%"
             />
             <CardContent>
-              <Typography variant="h6" component="h2" >
+              <Typography variant="h5" component="h2" >
+
                 Solution Challenge Info Session
               </Typography>
             </CardContent>
