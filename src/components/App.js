@@ -1,6 +1,6 @@
 import "../styles/App.css";
 
-import {BrowserRouter, Link, Route, Switch} from "react-router-dom";
+import { BrowserRouter, Link, Route, Switch } from "react-router-dom";
 
 import Blog from "./Blog";
 import ContactUs from "./ContactUs";
@@ -16,29 +16,27 @@ function App() {
       <div className="App">
         <Switch>
           <Route exact path="/dsc-bkbiet-events">
-             <EventsPage />
+            <EventsPage />
           </Route>
           <Route path="/">
             <div className="App">
               <Home />
               <Events />
               <Team />
-              <br/>
-              <br/>
+              <br />
+              <br />
               <ContactUs />
-              <br/>
-              <br/>
+              <br />
+              <br />
               <Podcasts />
-              <br/>
-              <br/>
+              <br />
+              <br />
               <Blog />
             </div>
           </Route>
         </Switch>
       </div>
-       
     </BrowserRouter>
-
   );
 }
 
