@@ -6,45 +6,37 @@ import Blog from "./Blog";
 import EventsPage from "./EventsPage";
 import ContactUs from "./ContactUs";
 import Podcasts from "./Podcasts";
+import Header from "./Header";
 
-import {
-  BrowserRouter,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-
-
+import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
-        <Switch>
-          <Route exact path="/dsc-bkbiet-events">
-             <EventsPage />
-          </Route>
-          <Route path="/">
-            <div className="App">
-              <Home />
-              <Events />
-              <Team />
-              <br/>
-              <br/>
-              <ContactUs />
-              <br/>
-              <br/>
-              <Podcasts />
-              <br/>
-              <br/>
-              <Blog />
-            </div>
-          </Route>
-        </Switch>
-      </div>
-       
+      <Header />
+	  <div style={{height:80}}></div>
+      <Switch>
+        <Route path="/dsc-bkbiet-events">
+          <EventsPage />
+        </Route>
+        <Route path="/Team">
+          <Team />
+        </Route>
+        <Route path="/contactUs">
+          <ContactUs />
+        </Route>
+        <Route path="/Podcasts">
+          <Podcasts />
+        </Route>
+        <Route path="/Blog">
+          <Blog />
+        </Route>
+        <Route exact path="/">
+          <Home />
+          <Events />
+        </Route>
+      </Switch>
     </BrowserRouter>
-
   );
 }
 
