@@ -53,6 +53,11 @@
   margin: 4px 2px;
   cursor: pointer;
 }
+
+.podcasts {
+  background-image: url("SoundWave.svg") no-repeat;
+}
+
 .podcast {
   padding-bottom: 2%;
 }
