@@ -6,10 +6,6 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import TwitterIcon from '@material-ui/icons/Twitter';
-import InstagramIcon from '@material-ui/icons/Instagram';
-
 import { Link } from '@material-ui/core';
 
 const useStyles = makeStyles({
@@ -25,39 +21,30 @@ const useStyles = makeStyles({
 
 
 
-const Cards = ({ name, position, image, iLink, tLink, lLink}) => {
+const Cards = ({ title, content, image, bLink}) => {
 
 
   const classes = useStyles();
 
   return (
     <Card className={classes.root}>
-      <CardActionArea>
-        <CardMedia
-          className={classes.media}
-          image={image}
-          title={name}
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            {name}
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            {position}
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Link href={iLink}>
-          <InstagramIcon/>
-        </Link>
-        <Link href={lLink}>
-          <LinkedInIcon />
-        </Link>
-        <Link href={tLink}>
-          <TwitterIcon />
-        </Link>
-      </CardActions>
+      <Link href={bLink} target="_blank">
+        <CardActionArea>
+          <CardMedia
+            className={classes.media}
+            image={image}
+            title={title}
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="h2">
+              {title}
+            </Typography>
+            <Typography variant="body2" color="textSecondary" component="p">
+              {content}
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+      </Link>
     </Card>
   );
 }
