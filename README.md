@@ -1,5 +1,16 @@
-# DSC-BKBIET Official Site 
-[![Build Status](https://travis-ci.com/dscbkbiet/dscbkbiet.github.io.svg?branch=main)](https://travis-ci.com/dscbkbiet/dscbkbiet.github.io) <br/><br/>
+# <h1 align="center"> DSC-BKBIET Official Site </h1> 
+[![Build Status](https://travis-ci.com/dscbkbiet/dscbkbiet.github.io.svg?branch=main)](https://travis-ci.com/dscbkbiet/dscbkbiet.github.io)
+![GitHub license](https://img.shields.io/github/license/dscbkbiet/dscbkbiet.github.io?style=social)
+![GitHub contributors](https://img.shields.io/github/contributors/dscbkbiet/dscbkbiet.github.io)
+![Repo issues](https://img.shields.io/github/issues/dscbkbiet/dscbkbiet.github.io)
+<br/><br/>
 This is th official website for DSC BKBIET. Home to all the open source projects, blogs, and many more.
 _______________ 
-### Manually created React.js project. To know about dependencies look into package.json
+
+## ⚒️ Contributors
+
+Meet the contributors!
+
+<a href="https://github.com//dscbkbiet/dscbkbiet.github.io/graphs/contributors"><img src="https://contributors-img.firebaseapp.com/image?repo=dscbkbiet/dscbkbiet.github.io" alt="Image of contributors"></a>
+
+<img width="17%" src="https://forthebadge.com/images/badges/it-works-why.svg"> <img width="14%" src="https://forthebadge.com/images/badges/uses-brains.svg"> <img width="24%" src="https://forthebadge.com/images/badges/contains-17-coffee-cups.svg">
