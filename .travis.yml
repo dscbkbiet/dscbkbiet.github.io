@@ -6,9 +6,9 @@ cache:
   npm: true
   directories:
     - node_modules
-
+    
 install:
-  - npm ci
+  - npm install
 
 script:
   - npm run build

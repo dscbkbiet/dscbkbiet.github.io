@@ -6,6 +6,7 @@
   padding-top: 18%;
   padding-left: 3%;
   font-family: "google";
+  width: 100%;
 }
 
 .homeButtonDiscord {
@@ -54,11 +55,18 @@
   cursor: pointer;
 }
 
+<<<<<<< HEAD
 .podcasts {
   background-image: url("SoundWave.svg") no-repeat;
 }
 
+=======
+.eventsEventsPageButton:hover {
+  background-color: #fbb904;
+  transform: scale(0.9);
+  transition-duration: 0.5s;
+}
+>>>>>>> f52349a41a25a8218c9525aa25706c6bd7d37061
 .podcast {
   padding-bottom: 2%;
 }
-
