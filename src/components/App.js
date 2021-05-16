@@ -9,12 +9,13 @@ import Podcasts from "./Podcasts";
 import Header from "./Header";
 
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
+import Footer from "./Footer";
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
-	  <div style={{height:80}}></div>
+      <div style={{ height: 80 }}></div>
       <Switch>
         <Route path="/dsc-bkbiet-events">
           <EventsPage />
@@ -36,6 +37,7 @@ function App() {
           <Events />
         </Route>
       </Switch>
+      <Footer />
     </BrowserRouter>
   );
 }
