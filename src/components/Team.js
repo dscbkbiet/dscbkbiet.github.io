@@ -34,7 +34,7 @@ const Team = () => {
         color="textSecondary"
         align="center"
         
-      >The Team</Typography>
+      >Team</Typography>
       <Grid
         container
         spacing={4}

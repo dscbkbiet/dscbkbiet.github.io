@@ -28,7 +28,7 @@ const Blog = () => {
         color="textSecondary"
         align="center"
         
-      >The Blog</Typography>
+      >Blog</Typography>
       <Grid
         container
         spacing={4}

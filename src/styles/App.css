@@ -37,8 +37,33 @@
   cursor: pointer;
 }
 
+.about {
+/* background: #fbbc04; */
+  padding: 0 10%;
+}
+
+.aboutLogo {
+  padding: 2% 0;
+}
+
+.footer-googlee {
+  margin-top: calc(5vh - 5px);
+}
+
+.podcastStripImg{
+  padding-top: 1%;
+}
+
+.podcastStripButton {
+  padding-top: 3.5%;
+}
+
 .events {
   padding: 1%;
+}
+
+.events a {
+  text-decoration: none;
 }
 
 .eventsEventsPageButton {
@@ -55,18 +80,11 @@
   cursor: pointer;
 }
 
-<<<<<<< HEAD
-.podcasts {
-  background-image: url("SoundWave.svg") no-repeat;
-}
-
-=======
 .eventsEventsPageButton:hover {
   background-color: #fbb904;
   transform: scale(0.9);
   transition-duration: 0.5s;
 }
->>>>>>> f52349a41a25a8218c9525aa25706c6bd7d37061
 .podcast {
   padding-bottom: 2%;
 }
