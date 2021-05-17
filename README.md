@@ -7,6 +7,11 @@
 This is the official website for DSC BKBIET. Home to all the open source projects, blogs, and many more.
 _______________ 
 
+## 💻 Tech Stack
+
+**Client:** React, Redux, Material UI
+_______________
+
 ## ⚒️ Contributors
 
 Meet the contributors!
