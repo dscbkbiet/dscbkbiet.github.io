@@ -1,7 +1,7 @@
 import "../styles/App.css";
 
 import React from "react";
-import {BrowserRouter, Link, Route, Switch} from "react-router-dom";
+import { BrowserRouter, Link, Route, Switch } from "react-router-dom";
 
 import Blog from "./Blog";
 import ContactUs from "./ContactUs";
@@ -17,8 +17,11 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <div style={{
-    height: 80 }}></div>
+      <div
+        style={{
+          height: 80,
+        }}
+      ></div>
       <Switch>
         <Route path="/dsc-bkbiet-events">
           <EventsPage />
