@@ -4,7 +4,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/dscbkbiet/dscbkbiet.github.io)
 ![Repo issues](https://img.shields.io/github/issues/dscbkbiet/dscbkbiet.github.io)
 <br/><br/>
-This is th official website for DSC BKBIET. Home to all the open source projects, blogs, and many more.
+This is the official website for DSC BKBIET. Home to all the open source projects, blogs, and many more.
 _______________ 
 
 ## ⚒️ Contributors
