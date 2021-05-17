@@ -38,7 +38,7 @@ function Events() {
         align="center"
       >Events</Typography>
 
-      <Grid className="events" container spacing={3}>
+      <Grid className="events" container>
         <Grid item xs={12} sm={12} lg={4} md={4}>
         <a href="https://youtu.be/o7mES2kTtOs" target="_blank">
           <Card className={classes.root} variant="outlined" align="center">

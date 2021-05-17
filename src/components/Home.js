@@ -16,7 +16,7 @@ function Home() {
   return (
     <div>
       <div className={classes.root}>
-        <Grid container spacing={3}>
+        <Grid container>
           {/* Content */}
           <Grid item xs={12} sm={6} lg={6} md={6} align="left">
             <div className="homeContent">
@@ -29,7 +29,7 @@ function Home() {
                   eraseDelay={500}
                 />
               </h3>
-              <Grid container spacing={0}>
+              <Grid container>
                 <Grid item xs={12} sm={6} lg={4} md={4}>
                   <a
                     href="https://discord.gg/7cAesm9H"
