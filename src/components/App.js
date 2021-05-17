@@ -7,6 +7,8 @@ import EventsPage from "./EventsPage";
 import ContactUs from "./ContactUs";
 import Podcasts from "./Podcasts";
 import Header from "./Header";
+import About from "./About";
+import PodcastStrip from './PodcastStrip';
 
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import Footer from "./Footer";
@@ -37,6 +39,8 @@ function App() {
           <Events />
         </Route>
       </Switch>
+      <About />
+      <PodcastStrip />
       <Footer />
     </BrowserRouter>
   );

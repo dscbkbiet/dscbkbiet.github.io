@@ -37,8 +37,33 @@
   cursor: pointer;
 }
 
+.about {
+/* background: #fbbc04; */
+  padding: 0 10%;
+}
+
+.aboutLogo {
+  padding: 2% 0;
+}
+
+.footer-googlee {
+  margin-top: calc(5vh - 5px);
+}
+
+.podcastStripImg{
+  padding-top: 1%;
+}
+
+.podcastStripButton {
+  padding-top: 3.5%;
+}
+
 .events {
   padding: 1%;
+}
+
+.events a {
+  text-decoration: none;
 }
 
 .eventsEventsPageButton {
