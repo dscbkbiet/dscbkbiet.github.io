@@ -44,6 +44,8 @@
 
 .aboutLogo {
   padding: 2% 0;
+  height: 50%;
+  width: 60%;
 }
 
 .footer-googlee {
@@ -58,12 +60,37 @@
   padding-top: 3.5%;
 }
 
+@media only screen and (max-width: 900px) {
+  .podcastStripButton {
+  padding-top: 5.5%;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .podcastStripButton {
+  padding-top: 8%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .podcastStripButton {
+  padding-top: 0%;
+  margin-top: -15% !important;
+  }
+}
+
 .events {
   padding: 1%;
 }
 
+.eventsCard {
+  border:  solid #fff; 
+	border-radius: 5px;
+	box-shadow: 1px 1px 4px 4px rgba(1, 1, 1, 0.06);
+} 
+
 .events a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .eventsEventsPageButton {
@@ -85,6 +112,6 @@
   transform: scale(0.9);
   transition-duration: 0.5s;
 }
-.podcast {
-  padding-bottom: 2%;
-}
+
+
+

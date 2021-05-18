@@ -30,11 +30,11 @@ function PodcastStrip() {
             </div>
 
             <Grid container spacing={0}>
-                <Grid item className="podcastStripImg" xs={9} sm={9} lg={9} md={9}>
+                <Grid item className="podcastStripImg" xs={12} sm={9} lg={9} md={9}>
                     <img align="left" className="PodcastStrip" src={SoundWave} alt="Podcast" width="100%" height="200px" />
                 </Grid>
 
-                <Grid item className="podcastStripButton" xs={3} sm={3} lg={3} md={3}>
+                <Grid item className="podcastStripButton" xs={12} sm={3} lg={3} md={3}>
                     <Typography align="center" className={classes.titleName}>
                         <Link to="/Podcasts">
                             <h3 className="eventsEventsPageButton">
