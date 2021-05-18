@@ -97,7 +97,7 @@ function Footer() {
 
         <hr className="hr" />
         <div className="copyright">
-          <p>© 2021 | DSC-BKBIET</p>
+          <p>Copyright © 2021 | DSC-BKBIET</p>
         </div>
       </div>
     </>

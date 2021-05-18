@@ -38,8 +38,9 @@ function Events() {
         align="center"
       >Events</Typography>
 
-      <Grid className="events" container>
+      <Grid className="events" container spacing={2}>
         <Grid item xs={12} sm={12} lg={4} md={4}>
+        <div className="eventsCard">
         <a href="https://youtu.be/o7mES2kTtOs" target="_blank">
           <Card className={classes.root} variant="outlined" align="center">
             <CardMedia
@@ -54,9 +55,11 @@ function Events() {
             </CardContent>
           </Card>
         </a>
+        </div>
         </Grid>
 
         <Grid item xs={12} sm={12} lg={4} md={4}>
+        <div className="eventsCard">
         <a href="https://youtu.be/wAYPxX80v-I" target="_blank">
           <Card className={classes.root} variant="outlined" align="center">
             <CardMedia
@@ -71,9 +74,11 @@ function Events() {
             </CardContent>
           </Card>
         </a>
+        </div>
         </Grid>
 
         <Grid item xs={12} sm={12} lg={4} md={4}>
+        <div className="eventsCard">
         <a href="https://youtu.be/lj5SJBTkmlU" target="_blank">
           <Card className={classes.root} variant="outlined" align="center">
             <CardMedia
@@ -88,9 +93,11 @@ function Events() {
             </CardContent>
           </Card>
         </a>
+        </div>
         </Grid>
 
         <Grid item xs={12} sm={12} lg={4} md={4}>
+        <div className="eventsCard">
         <a href="https://youtu.be/qw5RmBU1y7c" target="_blank">
           <Card className={classes.root} variant="outlined" align="center">
             <CardMedia
@@ -105,9 +112,11 @@ function Events() {
             </CardContent>
           </Card>
         </a>
+        </div>
         </Grid>
 
         <Grid item xs={12} sm={12} lg={4} md={4}>
+        <div className="eventsCard">
         <a href="https://youtu.be/5hA25MI3u8Y" target="_blank">
           <Card className={classes.root} variant="outlined" align="center">
             <CardMedia
@@ -122,9 +131,11 @@ function Events() {
             </CardContent>
           </Card>
         </a>
+        </div>
         </Grid>
 
         <Grid item xs={12} sm={12} lg={4} md={4}>
+        <div className="eventsCard">
         <a href="https://youtu.be/x3VyDASX7KU" target="_blank">
           <Card className={classes.root} variant="outlined" align="center">
             <CardMedia
@@ -139,6 +150,7 @@ function Events() {
             </CardContent>
           </Card>
         </a>
+        </div>
         </Grid>
       </Grid>
 
