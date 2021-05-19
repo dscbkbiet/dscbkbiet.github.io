@@ -2,6 +2,25 @@
   font-family: "google";
   src: url(https://fonts.gstatic.com/s/googlesans/v14/4UaGrENHsxJlGDuGo1OIlL3Owp4.woff2);
 }
+
+.App {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 1px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: linear-gradient( blue, red, orange, green ); 
+  border-radius: 1px;
+}
+
 .homeContent {
   padding-top: 18%;
   padding-left: 3%;
