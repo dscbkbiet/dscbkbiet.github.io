@@ -1,12 +1,7 @@
 language: node_js
 node_js:
   - 14.8.0
-
-- name: npm test:ci
-      run: npm run test:ci
-      env:
-         CI: false
-
+  
 cache:
   npm: true
   directories:
