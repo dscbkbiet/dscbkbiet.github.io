@@ -36,13 +36,14 @@ const Team = () => {
         color="textSecondary"
         align="center"
       >
+	  The Team
+      </Typography>
       <Grid
         container
         spacing={4}
         className={classes.gridContainer}
       >
-        The Team
-      </Typography>
+        
         {teamData.map((data) => {
           return (
             <Grid item xs={12} sm={4} md={3} lg={3}>
