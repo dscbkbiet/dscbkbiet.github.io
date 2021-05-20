@@ -35,19 +35,14 @@ const Team = () => {
         component="h2"
         color="textSecondary"
         align="center"
-<<<<<<< HEAD
-        
-      >Team</Typography>
+      >
       <Grid
         container
         spacing={4}
         className={classes.gridContainer}
-=======
->>>>>>> 31778396ec2f6de9d07cf80f54399a08434251ba
       >
         The Team
       </Typography>
-      <Grid container spacing={4} className={classes.gridContainer}>
         {teamData.map((data) => {
           return (
             <Grid item xs={12} sm={4} md={3} lg={3}>
