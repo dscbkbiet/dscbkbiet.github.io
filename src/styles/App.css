@@ -132,5 +132,7 @@
   transition-duration: 0.5s;
 }
 
-
+.blogCardLink:hover {
+  text-decoration: none !important;
+}
 

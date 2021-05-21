@@ -29,7 +29,7 @@ function Events() {
   const classes = useStyles();
 
   return (
-    <>
+    <div id="events">
       <Typography
         className={classes.titleName}
         variant="h3"
@@ -166,7 +166,7 @@ function Events() {
       </Typography>
     
 
-    </>
+    </div>
   );
 }
 

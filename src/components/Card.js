@@ -27,9 +27,10 @@ const useStyles = makeStyles({
     textDecoration: "none",
   },
   share: {
-    marginLeft: "230px",
+    marginLeft: "300px",
   },
 });
+
 
 
 
@@ -42,7 +43,7 @@ const Cards = ({ title, content, image, bLink }) => {
     <Card className={classes.root}>
 
       <CardActionArea>
-        <Link href={bLink} target="_blank">
+        <a className="blogCardLink" href={bLink} target="_blank">
           <CardMedia
             className={classes.media}
             image={image}
@@ -56,9 +57,11 @@ const Cards = ({ title, content, image, bLink }) => {
               {content}
             </Typography>
           </CardContent>
-        </Link>
+        </a>
         <IconButton aria-label="share" className={classes.share}>
-          <Popup trigger={<ShareIcon />}>{bLink} <FileCopyIcon style={{ margin: "5px" }} /></Popup>
+          <Popup trigger={<ShareIcon />}>{bLink} 
+            <FileCopyIcon style={{ margin: "5px" }} />
+          </Popup>
         </IconButton>
       </CardActionArea>
 

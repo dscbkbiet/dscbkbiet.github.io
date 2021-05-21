@@ -14,7 +14,7 @@ function Home() {
   const classes = useStyles();
 
   return (
-    <div>
+    <div id="home">
       <div className={classes.root}>
         <Grid container>
           {/* Content */}
