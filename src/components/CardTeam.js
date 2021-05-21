@@ -1,17 +1,16 @@
-import { Avatar, Link } from "@material-ui/core";
+import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
 import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
-import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
-import { Opacity, SportsRugbySharp } from "@material-ui/icons";
-import InstagramIcon from "@material-ui/icons/Instagram";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import TwitterIcon from "@material-ui/icons/Twitter";
-import React from "react";
-
+import InstagramIcon from "@material-ui/icons/Instagram";
+import { Avatar, Link } from "@material-ui/core";
+import { Opacity, SportsRugbySharp } from "@material-ui/icons";
 import My_picture from "../Assets/img/My_picture.jpg";
 
 const useStyles = makeStyles({
