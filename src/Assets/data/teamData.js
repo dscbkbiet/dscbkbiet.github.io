@@ -8,11 +8,6 @@ const data = [
     lLink: "https://www.linkedin.com/in/sameer-aka-soyokaze/",
     tLink: "https://twitter.com/Soyokaz3",
     about: "About will come here",
-    // about:
-    //   "Working in a community is the best way to increase your skill set in a
-    //   short amount of time and building one helps doing the same in
-    //   exponential rate. That's why Developer Student Clubs was the best thing
-    //   happened to me.",
   },
   {
     name: "Vaibhav Vyas",
@@ -33,9 +28,6 @@ const data = [
     lLink: "https://www.linkedin.com/in/mynkg/",
     tLink: "https://twitter.com/_mynk_g",
     about: "About will come here",
-    // about:
-    //   "DevOps and Cloud geek, love to automate and integrate technologies,
-    //   always up for some new challenges in the respective fields.",
   },
   {
     name: "Ramakrishna Chhipa",
@@ -66,11 +58,6 @@ const data = [
     lLink: "https://www.linkedin.com/in/aniketkumarsinha/",
     tLink: "https://twitter.com/AniketKSinha",
     about: "About will come here",
-    // about:
-    //   "Developer, Content Creator and a community guy. As Matt Mullenweg
-    //   said, 'Technology is best when it brings people together', thus making
-    //   people's present over the internet and trying to help fellow mates to
-    //   grow in tech in unison.",
   },
   {
     name: "Khushi Tulsiyan",
