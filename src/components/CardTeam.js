@@ -12,43 +12,52 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import React from "react";
 
-// import "../styles/CardTeam.css"
 import My_picture from "../Assets/img/My_picture.jpg";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: "345",
+    maxWidth: "345px",
     borderTop: "1px solid blue",
     borderRight: "1px solid red",
     borderBottom: "1px solid yellow",
     borderLeft: "1px solid green",
   },
   media: {
-    height: 200,
+    height: "200px",
     backgroundColor: "rgba(0 0 0 0.4)",
-    borderBottom: "1px solid rgb(0 0 0 / 20%)",
+    borderBottom: "0px",
     opacity: "0",
+    overflow: "hidden",
 
     "&:hover": {
       boxSizing: "border-box",
-      filter: "blur(25px)",
-      opacity: "50",
+      filter: "blur(30px)",
+      opacity: "90",
       backgroundSize: "cover",
-      transition: "0.5s",
+      transition: "0.3s",
+      transform: "scale(0.9)",
     },
   },
-  cardCover: {
-    boxShadow: "0 8px 8px rgb(0 0 0 / 20%)",
-    backgroundPosition: "50%",
-    marginTop: "5px",
-  },
   avatar: {
-    height: "120px",
-    width: "120px",
+    height: "110px",
+    width: "110px",
     boxShadow: "0 8px 8px rgb(0 0 0 / 20%)",
     borderRadius: "50%",
     objectFit: "cover",
     transform: "translateX(70px) translateY(-160px)",
+  },
+  title: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    borderBottom: "1px solid gray",
+    transform: "translateY(-140px)",
+  },
+  about: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    transform: "translateY(-100px)",
   },
 });
 
@@ -66,20 +75,26 @@ const CardTeam = ({ name, position, about, image, iLink, tLink, lLink }) => {
       </CardActionArea>
 
       <Avatar className={classes.avatar} alt={name} src={image} />
-      <Typography classes={classes.cardCover}></Typography>
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="h2">
+      <CardContent className={classes.title}>
+        <Typography
+          gutterBottom
+          variant="h6"
+          component="h2"
+          style={{ fontStyle: "bold" }}
+        >
           {name}
         </Typography>
-        <Typography variant="body2" color="textPrimary" component="p">
+        <Typography variant="caption" color="textPrimary" component="p">
           {position}
         </Typography>
-        <Typography variant="h5" color="textPrimary" component="p">
+      </CardContent>
+      <CardContent className={classes.about}>
+        <Typography variant="caption" color="textPrimary" component="p">
           {about}
         </Typography>
       </CardContent>
 
-      <CardActions>
+      <CardActions style={{ paddingTop: "0px" }}>
         <Link href={iLink}>
           <InstagramIcon />
         </Link>

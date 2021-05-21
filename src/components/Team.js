@@ -8,25 +8,30 @@ import teamData from "../Assets/data/teamData";
 
 import CardTeam from "./CardTeam";
 
+// import "../styles/Team.css";
+
 const useStyles = makeStyles({
   gridContainer: {
+    maxWidth: "193vh",
     paddingLeft: "40px",
     paddingRight: "30px",
     paddingTop: "20px",
-    marginLeft: "0px",
-    marginRight: "0px",
+    marginLeft: "auto",
+    marginRight: "auto",
     display: "flex",
-    justify: "space-evenly",
+    // justify: "space-evenly",
     alignItems: "center",
   },
-  titleName: { paddingTop: "20px" },
+  titleName: {
+    paddingTop: "20px",
+  },
 });
 
 const Team = () => {
   const classes = useStyles();
 
   return (
-    <Fragment>
+    <div>
       <Typography
         className={classes.titleName}
         variant="h3"
@@ -34,12 +39,12 @@ const Team = () => {
         color="textSecondary"
         align="center"
       >
-        Team
+        The Team
       </Typography>
       <Grid container spacing={4} className={classes.gridContainer}>
         {teamData.map((data) => {
           return (
-            <Grid item xs={12} sm={4} md={3}>
+            <Grid item xs={12} sm={4} md={3} lg={3}>
               <CardTeam
                 name={data.name}
                 position={data.position}
@@ -53,7 +58,7 @@ const Team = () => {
           );
         })}
       </Grid>
-    </Fragment>
+    </div>
   );
 };
 
