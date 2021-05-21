@@ -1,7 +1,7 @@
 import "../styles/App.css";
 
 import React from "react";
-import { BrowserRouter, Link, Route, Switch } from "react-router-dom";
+import {BrowserRouter, Link, Route, Switch} from "react-router-dom";
 
 import About from "./About";
 import Blog from "./Blog";
@@ -20,35 +20,25 @@ function App() {
     <BrowserRouter>
       <Header />
       <div
-        style={{
-          height: 80,
-        }}
-      ></div>
+  style = {{ height: 80, }} >
+          </div>
       <Switch>
-        <Route path="/dsc-bkbiet-events">
-          <EventsPage />
-        </Route>
-        <Route path="/Team">
-          <Team />
-        </Route>
-        <Route path="/contactUs">
-          <ContactUs />
-        </Route>
-        <Route path="/Podcasts">
-          <Podcasts />
-        </Route>
-        <Route path="/Blog">
-          <Blog />
-        </Route>
+        <Route path="/dsc - bkbiet - events ">
+           < EventsPage /></Route>
+        <Route path="/Team ">
+                           < Team /></Route>
+        <Route path="/contactUs ">
+                                     < ContactUs />
+          </Route>
+        <Route path="/Podcasts ">
+           < Podcasts /></Route>
+        <Route path="/Blog ">
+                         < Blog /></Route>
         <Route exact path="/">
-          <Home />
-          <Events />
-        </Route>
+                                   < Home /><Events /></Route>
       </Switch>
-      <About />
-      <PodcastStrip />
-      <Footer />
-    </BrowserRouter>
+          <About /><PodcastStrip /><Footer /><
+          /BrowserRouter>
   );
 }
 
