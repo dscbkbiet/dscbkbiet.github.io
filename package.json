@@ -32,8 +32,8 @@
     "reactstrap": "^8.9.0"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.10.3",
-    "react-scripts": "^2.1.8"
+    "parcel-bundler": "^1.12.5",
+    "react-scripts": "^4.0.3"
   },
   "browserslist": {
     "production": [

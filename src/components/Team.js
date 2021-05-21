@@ -1,52 +1,50 @@
-import { Typography } from "@material-ui/core";
+import React, { Fragment } from "react";
 // import Cards from "./Card";
 import Grid from "@material-ui/core/Grid";
-import { makeStyles } from "@material-ui/core/styles";
-import React, { Fragment } from "react";
-
+import { makeStyles } from '@material-ui/core/styles';
 import teamData from "../Assets/data/teamData";
-
+import { Typography } from "@material-ui/core";
 import CardTeam from "./CardTeam";
-
-// import "../styles/Team.css";
 
 const useStyles = makeStyles({
   gridContainer: {
-    maxWidth: "193vh",
-    paddingLeft: "40px",
-    paddingRight: "30px",
-    paddingTop: "20px",
-    marginLeft: "auto",
-    marginRight: "auto",
+    paddingLeft: '40px',
+    paddingRight: '30px',
+    paddingTop: '20px',
+    marginLeft: "0px",
+    marginRight: "0px",
     display: "flex",
-    // justify: "space-evenly",
-    alignItems: "center",
+    justify: "space-evenly",
+    alignItems: "center"
   },
   titleName: {
-    paddingTop: "20px",
-  },
+    paddingTop: '20px'
+  }
 });
 
 const Team = () => {
   const classes = useStyles();
-
+  
   return (
-    <div>
+    <Fragment>
       <Typography
         className={classes.titleName}
         variant="h3"
         component="h2"
         color="textSecondary"
         align="center"
+        
+      >Team</Typography>
+      <Grid
+        container
+        spacing={4}
+        className={classes.gridContainer}
       >
-        The Team
-      </Typography>
-      <Grid container spacing={4} className={classes.gridContainer}>
-        {teamData.map((data) => {
+        {teamData.map(data => {
           return (
-            <Grid item xs={12} sm={4} md={3} lg={3}>
+            <Grid item xs={12} sm={4} md={3}>
               <CardTeam
-                name={data.name}
+              name={data.name}
                 position={data.position}
                 iLink={data.iLink}
                 lLink={data.lLink}
@@ -54,11 +52,11 @@ const Team = () => {
                 image={data.image}
                 about={data.about}
               />
-            </Grid>
-          );
+            </Grid>)
         })}
+
       </Grid>
-    </div>
+      </Fragment>
   );
 };
 
