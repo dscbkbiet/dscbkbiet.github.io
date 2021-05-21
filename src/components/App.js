@@ -1,7 +1,7 @@
 import "../styles/App.css";
 
 import React from "react";
-import { BrowserRouter, Link, Route, Switch } from "react-router-dom";
+import {BrowserRouter, Link, Route, Switch} from "react-router-dom";
 
 import About from "./About";
 import Blog from "./Blog";
@@ -22,7 +22,7 @@ function App() {
       <Header />
       <div
         style={{
-          height: 80,
+    height: 80,
         }}
       ></div>
       <Switch>
