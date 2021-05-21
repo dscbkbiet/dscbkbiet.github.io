@@ -1,7 +1,7 @@
 import "../styles/App.css";
 
 import React from "react";
-import {BrowserRouter, Link, Route, Switch} from "react-router-dom";
+import { BrowserRouter, Link, Route, Switch } from "react-router-dom";
 
 import About from "./About";
 import Blog from "./Blog";
@@ -12,15 +12,18 @@ import Footer from "./Footer";
 import Header from "./Header";
 import Home from "./Home";
 import Podcasts from "./Podcasts";
-import PodcastStrip from './PodcastStrip';
+import PodcastStrip from "./PodcastStrip";
 import Team from "./Team";
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
-      <div style={{
-    height: 80 }}></div>
+      <div
+        style={{
+          height: 80,
+        }}
+      ></div>
       <Switch>
         <Route path="/dsc-bkbiet-events">
           <EventsPage />
