@@ -7,9 +7,11 @@ import {Link} from "react-router-dom";
 
 const useStyles = makeStyles({
   gridContainer: {
+    maxWidth: "199vh",
     paddingLeft: '40px',
     paddingRight: '30px',
-    paddingTop: '20px'
+    paddingTop: '20px',
+    alignItems: "center",
   },
   titleName: {
     paddingTop: '40px'
@@ -49,7 +51,7 @@ const Blog = () => {
         <Grid item xs={12} sm={6} md={4}>
           <Cards
             title={"All About LinkedIn"}
-            content={"“What is LinkedIn?”, “What is the use of LinkedIn?”, “How to use LinkedIn?”"}
+            content={"“What is LinkedIn?”, “What is the use of LinkedIn?”, “How to use LinkedIn?”, “How to make a Rocking profile?”, “What are the things you can do to make a professional LinkedIn profile?” "}
             image={"https://miro.medium.com/max/1200/1*pSBmOi_3FtjkNf0-Gj1zBg.png"}
             bLink={"https://medium.com/gdsc-bkbiet/all-about-linkedin-ef06b7402881"}
           />
