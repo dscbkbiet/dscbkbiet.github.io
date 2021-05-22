@@ -1,10 +1,13 @@
-import React, { Fragment } from "react";
+import { Typography } from "@material-ui/core";
 // import Cards from "./Card";
 import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
+import React, { Fragment } from "react";
+
 import teamData from "../Assets/data/teamData";
-import { Typography } from "@material-ui/core";
+
 import CardTeam from "./CardTeam";
+
 // import "../styles/Team.css";
 
 const useStyles = makeStyles({
@@ -36,14 +39,9 @@ const Team = () => {
         color="textSecondary"
         align="center"
       >
-	  The Team
+        The Team
       </Typography>
-      <Grid
-        container
-        spacing={4}
-        className={classes.gridContainer}
-      >
-        
+      <Grid container spacing={4} className={classes.gridContainer}>
         {teamData.map((data) => {
           return (
             <Grid item xs={12} sm={4} md={3} lg={3}>
