@@ -17,6 +17,7 @@ import Team from "./Team";
 
 function App() {
   return (
+    <div className="App">
     <BrowserRouter>
       <Header />
       <div
@@ -49,6 +50,7 @@ function App() {
       <PodcastStrip />
       <Footer />
     </BrowserRouter>
+    </div>
   );
 }
 
