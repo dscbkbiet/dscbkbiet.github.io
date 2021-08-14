@@ -1,0 +1,32 @@
+.home__main {
+  margin-top: 30px;
+  display: flex;
+  padding-left: 20px;
+  padding-right: 50px;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "google";
+}
+.homeContent {
+  display: flex;
+
+  flex-direction: column;
+}
+.homeContent > h1 {
+  font-weight: 600;
+}
+.homeContent > h3 {
+  color: rgb(75, 74, 74);
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 750px) {
+  .home__main {
+    flex-direction: column;
+    padding-left: 50px;
+  }
+  .home__animation {
+    margin-top: 30px;
+  }
+}

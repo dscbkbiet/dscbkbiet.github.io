@@ -8,129 +8,15 @@
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
 }
 
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-  border-radius: 1px;
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 50px;
 }
- 
+
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient( blue, red, orange, green ); 
-  border-radius: 1px;
+  background: linear-gradient(blue, red, orange, green);
+  border-radius: 50px;
 }
-
-.homeContent {
-  padding-top: 18%;
-  padding-left: 3%;
-  font-family: "google";
-  width: 100%;
-}
-
-.homeButtonDiscord {
-  background-color: #7289d9;
-  border: 0;
-  border-radius: 5px;
-  color: white;
-  padding: 15px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-.homeButtonPortal {
-  background-color: #1a73e8;
-  border: 0;
-  border-radius: 5px;
-  color: white;
-  padding: 15px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-.about {
-/* background: #fbbc04; */
-  padding: 0 10%;
-}
-
-.aboutLogo {
-  padding: 2% 0;
-  height: 50%;
-  width: 60%;
-}
-
-.footer-googlee {
-  margin-top: calc(5vh - 5px);
-}
-
-.podcastStripImg{
-  padding-top: 1%;
-}
-
-.podcastStripButton {
-  padding-top: 3.5%;
-}
-
-@media only screen and (max-width: 900px) {
-  .podcastStripButton {
-  padding-top: 5.5%;
-  }
-}
-
-@media only screen and (max-width: 620px) {
-  .podcastStripButton {
-  padding-top: 8%;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  .podcastStripButton {
-  padding-top: 0%;
-  margin-top: -15% !important;
-  }
-}
-
-.events {
-  padding: 1%;
-}
-
-.eventsCard {
-  border:  solid #fff; 
-	border-radius: 5px;
-	box-shadow: 1px 1px 4px 4px rgba(1, 1, 1, 0.06);
-} 
-
-.events a {
-  text-decoration: none !important;
-}
-
-.eventsEventsPageButton {
-  background-color: #fbbc04;
-  border: 0;
-  border-radius: 5px;
-  color: #333333;
-  padding: 15px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-.eventsEventsPageButton:hover {
-  background-color: #fbb904;
-  transform: scale(0.9);
-  transition-duration: 0.5s;
-}
-
-
-
