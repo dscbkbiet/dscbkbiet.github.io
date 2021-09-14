@@ -4,11 +4,12 @@ import Grid from "@material-ui/core/Grid";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 import ReactTypingEffect from "react-typing-effect";
 import "../styles/Home.css";
+import About from "./About";
 
 function Home() {
   return (
     <div>
-      <div className="home__main">
+      <div className="home__main h-screen">
         {/* Content */}
         <div className="homeContent">
           <h1>Google Developer Student Club BKBIET</h1>
@@ -33,6 +34,7 @@ function Home() {
           </Player>
         </div>
       </div>
+      <About />
     </div>
   );
 }

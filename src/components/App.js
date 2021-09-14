@@ -20,11 +20,6 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Header />
-        <div
-          style={{
-            height: 80,
-          }}
-        ></div>
         <Switch>
           <Route path="/dsc-bkbiet-events">
             <EventsPage />
