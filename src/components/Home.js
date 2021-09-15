@@ -5,6 +5,7 @@ import { Player, Controls } from "@lottiefiles/react-lottie-player";
 import ReactTypingEffect from "react-typing-effect";
 import "../styles/Home.css";
 import About from "./About";
+import Events from "./Events";
 
 function Home() {
   return (
@@ -35,6 +36,7 @@ function Home() {
         </div>
       </div>
       <About />
+      <Events />
     </div>
   );
 }

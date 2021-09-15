@@ -24,3 +24,11 @@
   background: linear-gradient(blue, red, orange, green);
   border-radius: 50px;
 }
+
+h1 {
+  @apply text-5xl;
+}
+
+.stuff__container {
+  @apply font-google p-14 mt-10 flex;
+}
