@@ -4,10 +4,10 @@ const Cards = (props) => {
   return (
     <>
       <div className="p-5 shadow-lg rounded-md bg-gray-300">
-        <p className="text-6xl">{props.emo}</p>
-        <p className="font-google font-bold text-xl">{props.name}</p>
+        <p className="text-6xl mb-3">{props.emo}</p>
+        <p className="font-google mb-3 font-bold text-xl">{props.name}</p>
         <hr></hr>
-        <p className="font-google">
+        <p className="font-google mb-3">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a
           eleifend erat, quis rhoncus lectus. Maecenas mattis ante in pulvinar
           venenatis. Ut vestibulum gravida quam, id porttitor lectus posuere eu.
