@@ -13,10 +13,7 @@ const Cards = (props) => {
           venenatis. Ut vestibulum gravida quam, id porttitor lectus posuere eu.
           Curabitur imperdiet porta ligula, quis iaculis mi rhoncus vitae.
         </p>
-        <button className="rounded-md p-2 bg-blue-400 shadow-sm font-semibold text-blue-100 hover:bg-blue-600 transition duration-300 hover:shadow-lg">
-          {" "}
-          Know more
-        </button>
+        <button className="gdsc_btn"> Know more</button>
       </div>
     </>
   );

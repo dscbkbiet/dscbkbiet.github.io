@@ -26,7 +26,7 @@
 }
 
 h1 {
-  @apply text-5xl;
+  @apply text-4xl;
 }
 
 .stuff__container {
@@ -35,4 +35,8 @@ h1 {
 
 p {
   margin: 0;
+}
+
+.gdsc_btn {
+  @apply rounded-md p-2 bg-blue-400 shadow-sm font-semibold text-blue-100 hover:bg-blue-600 transition duration-300 hover:shadow-lg;
 }

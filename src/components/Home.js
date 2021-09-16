@@ -6,6 +6,7 @@ import ReactTypingEffect from "react-typing-effect";
 import "../styles/Home.css";
 import About from "./About";
 import Events from "./Events";
+import PodBlogs from "./PodBlogs";
 
 function Home() {
   return (
@@ -37,6 +38,7 @@ function Home() {
       </div>
       <About />
       <Events />
+      <PodBlogs />
     </div>
   );
 }
