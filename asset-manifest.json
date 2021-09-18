@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c45b1bf9.chunk.css",
+    "main.js": "/static/js/main.ee0528de.chunk.js",
+    "main.js.map": "/static/js/main.ee0528de.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9f9ea8c5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9f9ea8c5.js.map",
+    "static/css/2.ab035087.chunk.css": "/static/css/2.ab035087.chunk.css",
+    "static/js/2.7e459a4e.chunk.js": "/static/js/2.7e459a4e.chunk.js",
+    "static/js/2.7e459a4e.chunk.js.map": "/static/js/2.7e459a4e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ab035087.chunk.css.map": "/static/css/2.ab035087.chunk.css.map",
+    "static/css/main.c45b1bf9.chunk.css.map": "/static/css/main.c45b1bf9.chunk.css.map",
+    "static/js/2.7e459a4e.chunk.js.LICENSE.txt": "/static/js/2.7e459a4e.chunk.js.LICENSE.txt",
+    "static/media/My_picture.ed32c8a8.jpg": "/static/media/My_picture.ed32c8a8.jpg",
+    "static/media/SoundWave.0d4fccdc.svg": "/static/media/SoundWave.0d4fccdc.svg",
+    "static/media/blog.94f1c255.jpg": "/static/media/blog.94f1c255.jpg",
+    "static/media/dscbkbietlogo.1affcd16.png": "/static/media/dscbkbietlogo.1affcd16.png",
+    "static/media/logo1.f1e514d3.png": "/static/media/logo1.f1e514d3.png",
+    "static/media/pod.189fb3eb.jpg": "/static/media/pod.189fb3eb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9f9ea8c5.js",
+    "static/css/2.ab035087.chunk.css",
+    "static/js/2.7e459a4e.chunk.js",
+    "static/css/main.c45b1bf9.chunk.css",
+    "static/js/main.ee0528de.chunk.js"
+  ]
+}
