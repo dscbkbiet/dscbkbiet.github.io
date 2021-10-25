@@ -12,7 +12,7 @@ _______________
 **Client:** React, Redux, Material UI
 _______________
 
-## ⚒️ Contributors
+## ⚒️ Contributors #hacktoberfest2021
 
 Meet the contributors!
 
